@@ -78,7 +78,7 @@ This is suitable when your team is not ready to roll `cz-customizable` across al
 
 Steps:
 * create config file:
-  * create a file called `.cz-config.js` in your git repository root (*Asumptions: you do a global git ignore on `~/.gitignore_global` for `.cz-config.js`). Or;
+  * create a file called `.cz-config.js` in your git repository root . Or;
   * create a file called `.cz-config.js` your home directory.
 
 #### Additional steps when used as commitizen plugin
@@ -91,6 +91,7 @@ Steps:
 
 **Notes:**
 * you should commit your `.cz-config.js` file to your git when applicable.
+* the order of config is: `package.json` > file in project root > file in home directory
 
 
 
